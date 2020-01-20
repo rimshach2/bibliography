@@ -1,79 +1,103 @@
+FLAKY TESTS BIBLIOGRAPHY 
+
+Contributors:
+- Owain Parry
+- Gregory Kapfhammer
+- Michael Hilton 
+- Phil McMinn
+
+Style guide:
+- Use {} as opposed to  ""
+- A tab/indent is two spaces
+- Surround whole words with curly brackets in titles to preserve captilization, not just first letters
+- Order of fields:  
+    - Conference paper: author, title, booktitle, pages, year
+    - Journal paper: author, title, journal, volume, number, pages, year
+- Key is formed by first author surname, followed by publication year, followed by b/c/d... if multiple publications for that author in that year
+- Entries ordered by key
+- Conference names take the format "Proceedings of the CONFERENCE_TITLE (CONFERENCE_ACRONYM)"
+- Conference names omit conference number (e.g., "31st") and sponsorship (e.g., ACM/IEEE)
+- Use en-dashes for ranges (e.g., page numbers), i.e. 10--20
+
 @inproceedings{Bell2015,
   author = {Bell, J. and Kaiser, G. and Melski, E. and Dattatreya, M.},
   title = {Efficient Dependency Detection for Safe {J}ava Test Acceleration},
-  booktitle = {ESEC/FSE},
+  booktitle = {Proceedings of the Joint Meeting on Foundations of Software Engineering (ESEC/FSE)},
+  pages = {770--781},
   year = {2015}
 }
 
 @inproceedings{Bell2018,
   author = {Bell, J. and Legunsen, O. and Hilton, M. and Eloussi, L. and Yung, T. and Marinov, D.},
-  title = {{DeFlaker}: {A}utomatically Detecting Flaky Tests},
-  booktitle = {ICSE},
+  title = {{DeFlaker}: {Automatically} Detecting Flaky Tests},
+  booktitle = {Proceedings of the International Conference on Software Engineering (ICSE)},
+  pages = {433--444},
   year = {2018}
 }
 
 @inproceedings{Campos2013,
   author = {Campos, J. and Abreu, R. and Fraser, G. and d'Amorim, M.},
   title = {Entropy-based Test Generation for Improved Fault Localization},
-  booktitle = {ASE},
+  booktitle = {Proceedings of the International Conference on Automated Software Engineering (ASE)},
+  pages = {257--267},
   year = {2013}
 }
 
 @inproceedings{Eck2019,
-    author = {Eck, Moritz and Palomba, Fabio and Castelluccio, Marco and Bacchelli, Alberto},
-    month = {7},
-    pages = {830--840},
-    title = {{Understanding flaky tests: the developer's perspective}},
-    year = {2019}
+  author = {Eck, Moritz and Palomba, Fabio and Castelluccio, Marco and Bacchelli, Alberto},
+  title = {Understanding flaky tests: the developer's perspective},
+  booktitle = {Proceedings of the Joint Meeting on European Software Engineering (ESEC/FSE)},
+  pages = {830--840},    
+  year = {2019}
 }
 
 @inproceedings{Gambi2018,
-    author = {Gambi, Alessio and Bell, Jonathan and Zeller, Andreas},
-    booktitle = {Proceedings - 2018 IEEE 11th International Conference on Software Testing, Verification and Validation, ICST 2018},
-    month = {5},
-    pages = {1--11},
-    publisher = {Institute of Electrical and Electronics Engineers Inc.},
-    title = {{Practical Test Dependency Detection}},
-    year = {2018}
+  author = {Gambi, Alessio and Bell, Jonathan and Zeller, Andreas},
+  title = {Practical Test Dependency Detection},
+  booktitle = {Proceedings of the International Conference on Software Testing, Verification and Validation (ICST)},
+  pages = {1--11},
+  year = {2018}
 }
 
 @inproceedings{Gao2015,
   author = {Gao, Z. and Liang, Y. and Cohen, M. B. and Memon, A. M. and Wang, Z.},
-  title = {Making System User Interactive Tests Repeatable: {W}hen and What Should we Control?},
-  booktitle = {ICSE},
+  title = {Making System User Interactive Tests Repeatable: {When} and What Should we Control?},
+  booktitle = {Proceedings of the International Conference on Software Engineering (ICSE)},
+  pages = {55--65},
   year = {2015}
 }
 
 @article{Gazzola2019,
-    author = {Gazzola, Luca and Micucci, Daniela and Mariani, Leonardo},
-    journal = {IEEE Transactions on Software Engineering},
-    month = {1},
-    number = {1},
-    pages = {34--67},
-    publisher = {Institute of Electrical and Electronics Engineers Inc.},
-    title = {{Automatic Software Repair: A Survey}},
-    volume = {45},
-    year = {2019}
+  author = {Gazzola, Luca and Micucci, Daniela and Mariani, Leonardo},
+  title = {Automatic Software Repair: A Survey},
+  journal = {IEEE Transactions on Software Engineering},
+  volume = {45},
+  number = {1},
+  pages = {34--67},
+  year = {2019}
 }
 
 @inproceedings{Gyori2015,
   author = {Gyori, A. and Shi, A. and Hariri, F. and Marinov, D.},
-  title = {Reliable Testing: {D}etecting State-Polluting Tests to Prevent Test Dependency},
-  booktitle = {ISSTA},
+  title = {Reliable Testing: {Detecting} State-Polluting Tests to Prevent Test Dependency},
+  booktitle = {Proceedings of the International Conference on Software Testing and Analysis (ISSTA)},
+  pages = {223--233},
   year = {2015}
 }
 
 @inproceedings{Hilton2018,
   author = {Hilton, M. and Bell, J. and Marinov, D.},
   title = {A Large-Scale Study of Test Coverage Evolution},
-  booktitle = {ASE},
+  booktitle = {Proceedings of the International Conference on Automated Software Engineering (ASE)},
+  pages = {53--63},
   year = {2018}
 }
 
 @inproceedings{Huo2014,
   author = {Huo, C. and Clause, J.},
   title = {Improving Oracle Quality by Detecting Brittle Assertions and Unused Inputs in Tests},
-  booktitle = {FSE},
+  booktitle = {Proceedings of International Symposium on Foundations of Software Engineering (FSE)},
+  pages = {621-631},
   year = {2014}
 }
 
@@ -119,13 +143,13 @@
 @inproceedings{LeGoues2019,
     author = {{Le Goues}, Claire and Pradel, Michael and Roychoudhury, Abhik},
     booktitle = {Proceedings of Communications of the ACM (CACM)},
-    title = {{Automated Program Repair}},
+    title = {Automated Program Repair},
     year = {2019}
 }
 
 @inproceedings{Liu2019,
  author = {Liu, Kui and Koyuncu, Anil and Kim, Dongsun and Bissyand{\'e}, Tegawend{\'e} F.},
- title = {{TBar}: {Revisiting} Template-based Automated Program Repair},
+ title = {{TBar}: {R}evisiting Template-based Automated Program Repair},
  booktitle = {ISSTA},
  year = {2019},
 }
@@ -135,7 +159,7 @@
     month = {11},
     pages = {643--653},
     publisher = {Association for Computing Machinery},
-    title = {{An empirical analysis of flaky tests}},
+    title = {An empirical analysis of flaky tests},
     volume = {16-21-Nove},
     year = {2014}
 }
@@ -170,14 +194,14 @@
     author = {Palomba, Fabio and Zaidman, Andy},
     booktitle = {Proceedings - 2017 IEEE International Conference on Software Maintenance and Evolution, ICSME 2017},
     pages = {1--12},
-    title = {{Does refactoring of test smells induce fixing flaky tests?}},
+    title = {Does refactoring of test smells induce fixing flaky tests?},
     year = {2017}
 }
 
 @article{Palomba2019,
     author = {Palomba, Fabio and Zaidman, Andy},
     journal = {Empirical Software Engineering},
-    title = {{The smell of fear: on the relation between test smells and flaky tests}},
+    title = {The smell of fear: on the relation between test smells and flaky tests},
     year = {2019}
 }
 
@@ -185,7 +209,7 @@
     author = {Shi, August and Lam, Wing and Oei, Reed and Xie, Tao and Marinov, Darko},
     pages = {545--555},
     publisher = {Association for Computing Machinery (ACM)},
-    title = {{iFixFlakies: a framework for automatically fixing order-dependent flaky tests}},
+    title = {{iFixFlakies}: {A} framework for automatically fixing order-dependent flaky tests},
     year = {2019}
 }
 

@@ -26,7 +26,6 @@ bibliography.pdf
 ##########
 *.bbl
 *.blg
-*.bib
 
 ##########
 # LaTeX #
