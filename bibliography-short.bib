@@ -10,11 +10,13 @@ Style guide:
 - Use {} as opposed to  ""
 - A tab/indent is two spaces
 - Surround whole words with curly brackets in titles to preserve captilization, not just first letters
-- Order of fields:  
-    - Conference paper: author, title, booktitle, year
-    - Journal paper: author, title, journal, year
+- Use author initials rather than full first name etc. with surname first; i.e. "Surname, I. and ..."
 - Key is formed by first author surname, followed by publication year, followed by b/c/d... if multiple publications for that author in that year
 - Entries ordered by key
+- Order of fields:  
+    - inproceedings: author, title, booktitle, pages, year
+    - article: author, title, journal, volume, number, pages, year
+    - techreport: author, title, institution, number, year
 
 Additional short version guide:
 - Only use conference acronyms for "booktitle"
@@ -42,14 +44,14 @@ Additional short version guide:
 }
 
 @inproceedings{Eck2019,
-  author = {Eck, Moritz and Palomba, Fabio and Castelluccio, Marco and Bacchelli, Alberto},
+  author = {Eck, M. and Palomba, F. and Castelluccio, M. and Bacchelli, A.},
   title = {Understanding flaky tests: the developer's perspective},
   booktitle = {ESEC/FSE},  
   year = {2019}
 }
 
 @inproceedings{Gambi2018,
-  author = {Gambi, Alessio and Bell, Jonathan and Zeller, Andreas},
+  author = {Gambi, A. and Bell, J. and Zeller, A.},
   title = {Practical Test Dependency Detection},
   booktitle = {ICST},
   year = {2018}
@@ -63,7 +65,7 @@ Additional short version guide:
 }
 
 @article{Gazzola2019,
-  author = {Gazzola, Luca and Micucci, Daniela and Mariani, Leonardo},
+  author = {Gazzola, L. and Micucci, D. and Mariani, L.},
   title = {Automatic Software Repair: A Survey},
   journal = {IEEE Transactions on Software Engineering},
   year = {2019}
@@ -88,4 +90,33 @@ Additional short version guide:
   title = {Improving Oracle Quality by Detecting Brittle Assertions and Unused Inputs in Tests},
   booktitle = {FSE},
   year = {2014}
+}
+
+@inproceedings{Jin2011,
+  author = {Jin, G. and Song, L. and Zhang, W. and Lu, S. and Liblit, B.},
+  title = {Automated Atomicity-Violation Fixing},
+  booktitle = {PLDI},
+  year = {2011}
+}
+
+@inproceedings{Kochhar2019,
+  author = {Kochhar, P. S. and Xia, X. and Lo, D.},
+  title = {Practitioners' Views on Good Software Testing Practices},
+  booktitle = {ICSE-SEIP},
+  year = {2019}
+}
+
+@techreport{Lam2015,
+  author = {Lam, W., and Zhang, S. and Ernst, M. D.},
+  title = {When tests collide: Evaluating and coping with the impact of test dependence},
+  institution = {Department of Computer Science and Engineering, University of Washington},
+  number = {UW-CSE-15-03-01},
+  year = {2015}
+}
+
+@inproceedings{Lam2019,
+  author = {Lam, W. and Oei, R. and Shi, A. and Marinov, D. and Xie, T.},
+  title = {{IDFlakies: A framework for detecting and partially classifying flaky tests}},
+  booktitle = {ICST},
+  year = {2019}
 }

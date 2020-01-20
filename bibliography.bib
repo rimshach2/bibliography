@@ -10,14 +10,16 @@ Style guide:
 - Use {} as opposed to  ""
 - A tab/indent is two spaces
 - Surround whole words with curly brackets in titles to preserve captilization, not just first letters
-- Order of fields:  
-    - Conference paper: author, title, booktitle, pages, year
-    - Journal paper: author, title, journal, volume, number, pages, year
+- Use author initials rather than full first name etc. with surname first; i.e. "Surname, I. and ..."
 - Key is formed by first author surname, followed by publication year, followed by b/c/d... if multiple publications for that author in that year
 - Entries ordered by key
 - Conference names take the format "Proceedings of the CONFERENCE_TITLE (CONFERENCE_ACRONYM)"
 - Conference names omit conference number (e.g., "31st") and sponsorship (e.g., ACM/IEEE)
 - Use en-dashes for ranges (e.g., page numbers), i.e. 10--20
+- Order of fields:  
+    - inproceedings: author, title, booktitle, pages, year
+    - article: author, title, journal, volume, number, pages, year
+    - techreport: author, title, institution, number, year
 
 @inproceedings{Bell2015,
   author = {Bell, J. and Kaiser, G. and Melski, E. and Dattatreya, M.},
@@ -44,7 +46,7 @@ Style guide:
 }
 
 @inproceedings{Eck2019,
-  author = {Eck, Moritz and Palomba, Fabio and Castelluccio, Marco and Bacchelli, Alberto},
+  author = {Eck, M. and Palomba, F. and Castelluccio, M. and Bacchelli, A.},
   title = {Understanding flaky tests: the developer's perspective},
   booktitle = {Proceedings of the Joint Meeting on European Software Engineering (ESEC/FSE)},
   pages = {830--840},    
@@ -52,7 +54,7 @@ Style guide:
 }
 
 @inproceedings{Gambi2018,
-  author = {Gambi, Alessio and Bell, Jonathan and Zeller, Andreas},
+  author = {Gambi, A. and Bell, J. and Zeller, A.},
   title = {Practical Test Dependency Detection},
   booktitle = {Proceedings of the International Conference on Software Testing, Verification and Validation (ICST)},
   pages = {1--11},
@@ -68,7 +70,7 @@ Style guide:
 }
 
 @article{Gazzola2019,
-  author = {Gazzola, Luca and Micucci, Daniela and Mariani, Leonardo},
+  author = {Gazzola, L. and Micucci, D. and Mariani, L.},
   title = {Automatic Software Repair: A Survey},
   journal = {IEEE Transactions on Software Engineering},
   volume = {45},
@@ -104,33 +106,33 @@ Style guide:
 @inproceedings{Jin2011,
   author = {Jin, G. and Song, L. and Zhang, W. and Lu, S. and Liblit, B.},
   title = {Automated Atomicity-Violation Fixing},
-  booktitle = {PLDI},
+  booktitle = {Proceedings of the Conference on Programming Language Design and Implementation (PLDI)},
+  pages = {389--400},
   year = {2011}
 }
 
 @inproceedings{Kochhar2019,
   author = {Kochhar, P. S. and Xia, X. and Lo, D.},
   title = {Practitioners' Views on Good Software Testing Practices},
-  booktitle = {ICSE-SEIP},
+  booktitle = {Proceedings of the International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)},
+  pages = {61--70},
   year = {2019}
 }
 
-@inproceedings{Lam2019,
-    author = {Lam, Wing and Oei, Reed and Shi, August and Marinov, Darko and Xie, Tao},
-    booktitle = {Proceedings - 2019 IEEE 12th International Conference on Software Testing, Verification and Validation, ICST 2019},
-    pages = {312--322},
-    title = {{IDFlakies: A framework for detecting and partially classifying flaky tests}},
-    year = {2019}
+@techreport{Lam2015,
+  author = {Lam, W., and Zhang, S. and Ernst, M. D.},
+  title = {When tests collide: Evaluating and coping with the impact of test dependence},
+  institution = {Department of Computer Science and Engineering, University of Washington},
+  number = {UW-CSE-15-03-01},
+  year = {2015}
 }
 
-@techreport{Lam2015,
-    author = {Wing Lam and Sai Zhang and Michael D. Ernst},
-    title = {When tests collide: Evaluating and coping with the impact of test dependence},
-    institution = {University of Washington Department of Computer Science and Engineering},
-    number = {UW-CSE-15-03-01},
-    address = {Seattle, WA, USA},
-    month = mar,
-    year = {2015}
+@inproceedings{Lam2019,
+  author = {Lam, W. and Oei, R. and Shi, A. and Marinov, D. and Xie, T.},
+  title = {{IDFlakies: A framework for detecting and partially classifying flaky tests}},
+  booktitle = {Proceedings of the International Conference on Software Testing, Verification and Validation (ICST)},
+  pages = {312--322},
+  year = {2019}
 }
 
 @inproceedings{LeGoues2012,
