@@ -38,13 +38,24 @@ Style guide:
   year = {2018}
 }
 
-@inproceedings{Bohme2019,
-  author = {Bohme, Marcel},
-  title = {{Assurances in software testing: A roadmap}},
-  booktitle = {Proceedings - 2019 IEEE/ACM 41st International Conference on Software Engineering: New Ideas and Emerging Results, ICSE-NIER 2019},
-  pages = {5--8},
-  year = {2019}
+@inproceedings{Bohme2019,,
+archivePrefix = {arXiv},
+arxivId = {1807.10255},
+author = {Bohme, Marcel},
+booktitle = {Proceedings - 2019 IEEE/ACM 41st International Conference on Software Engineering: New Ideas and Emerging Results, ICSE-NIER 2019},
+doi = {10.1109/ICSE-NIER.2019.00010},
+eprint = {1807.10255},
+file = {:home/owain/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Bohme - 2019 - Assurances in software testing A roadmap.pdf:pdf},
+isbn = {9781728117584},
+keywords = {Cost benefit tradeoff,Guarantees,Residual risk,Statistics},
+mendeley-groups = {Flaky},
+month = {may},
+pages = {5--8},
+publisher = {Institute of Electrical and Electronics Engineers Inc.},
+title = {{Assurances in software testing: A roadmap}},
+year = {2019}
 }
+
 
 @inproceedings{Campos2013,
   author = {Campos, J. and Abreu, R. and Fraser, G. and d'Amorim, M.},
@@ -82,13 +93,6 @@ Style guide:
   booktitle = {Proceedings of the International Conference on Software Engineering (ICSE)},
   pages = {55--65},
   year = {2015}
-}
-
-@article{Garousi2018,
-  author = {Garousi, Vahid and K{\"{u}}{\c{c}}{\"{u}}k, Barış},
-  title = {{Smells in software test code: A survey of knowledge in industry and academia}},
-  journal = {Journal of Systems and Software},
-  year = {2018}
 }
 
 @article{Gazzola2019,
@@ -133,27 +137,12 @@ Style guide:
   year = {2011}
 }
 
-@inproceedings{King2018,
-  author = {King, Tariq M. and Santiago, Dionny and Phillips, Justin and Clarke, Peter J.},
-  title = {{Towards a Bayesian Network Model for Predicting Flaky Automated Tests}},
-  booktitle = {Proceedings - 2018 IEEE 18th International Conference on Software Quality, Reliability, and Security Companion, QRS-C 2018},
-  year = {2018}
-}
-
 @inproceedings{Kochhar2019,
   author = {Kochhar, P. S. and Xia, X. and Lo, D.},
   title = {Practitioners' Views on Good Software Testing Practices},
   booktitle = {Proceedings of the International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)},
   pages = {61--70},
   year = {2019}
-}
-
-@inproceedings{Labuschagne2017,
-  author = {Labuschagne, Adriaan and Inozemtseva, Laura and Holmes, Reid},
-  title = {{Measuring the cost of regression testing in practice: A study of Java projects using continuous integration}},
-  booktitle = {Proceedings of the ACM SIGSOFT Symposium on the Foundations of Software Engineering},
-  pages = {821--830},
-  year = {2017}
 }
 
 @techreport{Lam2015,
@@ -169,14 +158,6 @@ Style guide:
   title = {{IDFlakies: A framework for detecting and partially classifying flaky tests}},
   booktitle = {Proceedings of the International Conference on Software Testing, Verification and Validation (ICST)},
   pages = {312--322},
-  year = {2019}
-}
-
-@inproceedings{Lam2019b,
-  author = {Lam, Wing and Godefroid, Patrice and Nath, Suman and Santhiar, Anirudh and Thummalapenta, Suresh},
-  title = {{Root causing flaky tests in a large-scale industrial setting}},
-  booktitle = {ISSTA 2019 - Proceedings of the 28th ACM SIGSOFT International Symposium on Software Testing and Analysis},
-  pages = {204--215},
   year = {2019}
 }
 
@@ -212,24 +193,6 @@ Style guide:
   year = {2014}
 }
 
-@inproceedings{Machalica2019,
-  author = {Machalica, Mateusz and Samylkin, Alex and Porth, Meredith and Chandra, Satish},
-  title = {{Predictive Test Selection}},
-  booktitle = {Proceedings - 2019 IEEE/ACM 41st International Conference on Software Engineering: Software Engineering in Practice, ICSE-SEIP 2019},
-  pages = {91--100},
-  year = {2019}
-}
-
-@article{Mascheroni2018,
-  author = {Mascheroni, Maximiliano A. and Irraz{\'{a}}bal, Emanuel},
-  title = {{Identifying Key Success Factors in Stopping Flaky Tests in Automated REST Service Testing}},
-  journal = {Journal of Computer Science and Technology},
-  volume = {18},
-  number = {2},
-  pages = {e16},
-  year = {2018}
-}
-
 @inproceedings{Marinescu2014,
   author = {Marinescu, P. and Hosek, P. and Cadar, C.},
   title = {{Covrig}: {A} Framework for the Analysis of Code, Test, and Coverage Evolution in Real Software},
@@ -257,14 +220,6 @@ Style guide:
   year = {2018}
 }
 
-@inproceedings{Moran2019,
-  author = {Mor{\'{a}}n, Jesus and Augusto, Cristian and Bertolino, Antonia and {De La Riva}, Claudio and Tuya, Javier},
-  title = {{Debugging flaky tests on web applications}},
-  booktitle = {WEBIST 2019 - Proceedings of the 15th International Conference on Web Information Systems and Technologies},
-  pages = {454--461},
-  year = {2019}
-}
-
 @inproceedings{Palomba2017,
   author = {Palomba, F. and Zaidman, A.},
   title = {Does refactoring of test smells induce fixing flaky tests?},
@@ -283,59 +238,11 @@ Style guide:
   year = {2019}
 }
 
-@inproceedings{Paydar2019,
-  author = {Paydar, Samad and Azamnouri, Aidin},
-  title = {{An Experimental Study on Flakiness and Fragility of Randoop Regression Test Suites}},
-  booktitle = {Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},
-  pages = {111--126},
-  year = {2019}
-}
-
-@inproceedings{Presler-Marshall2019,
-  author = {Presler-Marshall, Kai and Horton, Eric and Heckman, Sarah and Stolee, Kathryn T.},
-  title = {{Wait wait. No, tell me. Analyzing selenium configuration effects on test flakiness}},
-  booktitle = {Proceedings - 2019 IEEE/ACM 14th International Workshop on Automation of Software Test, AST 2019},
-  pages = {7--13},
-  year = {2019}
-}
-
-@inproceedings{Rahman2018,
-  author = {Rahman, M. Tajmilur and Rigby, Peter C.},
-  title = {{The impact of failing, flaky, and high failure tests on the number of crash reports associated with firefox builds}},
-  booktitle = {ESEC/FSE 2018 - Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
-  pages = {857--862},
-  year = {2018}
-}
-
-@inproceedings{Shamshiri2016,
-  author = {Shamshiri, Sina and Just, Ren{\'{e}} and Rojas, Jos{\'{e}} Miguel and Fraser, Gordon and McMinn, Phil and Arcuri, Andrea},
-  title = {{Do automatically generated unit tests find real faults? An empirical study of effectiveness and challenges}},
-  booktitle = {Proceedings - 2015 30th IEEE/ACM International Conference on Automated Software Engineering, ASE 2015},
-  pages = {201--211},
-  year = {2016}
-}
-
-@inproceedings{Shi2016,
-  author = {Shi, August and Gyori, Alex and Legunsen, Owolabi and Marinov, Darko},
-  title = {{Detecting Assumptions on Deterministic Implementations of Non-deterministic Specifications}},
-  booktitle = {Proceedings - 2016 IEEE International Conference on Software Testing, Verification and Validation, ICST 2016},
-  pages = {80--90},
-  year = {2016}
-}
-
 @inproceedings{Shi2019,
   author = {Shi, A. and Lam, W. and Oei, R. and Xie, T. and Marinov, D.},
   title = {{iFixFlakies}: {A} Framework for Automatically Fixing Order-dependent Flaky Tests},
   booktitle = {Proceedings of the Joint Meeting on Foundations of Software Engineering (ESEC/FSE)},
   pages = {545--555},
-  year = {2019}
-}
-
-@inproceedings{Shi2019b,
-  author = {Shi, August and Bell, Jonathan and Marinov, Darko},
-  title = {{Mitigating the effects of flaky tests on mutation testing}},
-  booktitle = {ISSTA 2019 - Proceedings of the 28th ACM SIGSOFT International Symposium on Software Testing and Analysis},
-  pages = {296--306},
   year = {2019}
 }
 
@@ -351,21 +258,6 @@ Style guide:
   author = {StackOverflow},
   title = {Developer survey results, {\url{https://insights.stackoverflow.com/survey/2019}}},
   year = {2019}
-}
-
-@inproceedings{Thorve2018,
-  author = {Thorve, Swapna and Sreshtha, Chandani and Meng, Na},
-  title = {{An empirical study of flaky tests in android apps}},
-  booktitle = {Proceedings - 2018 IEEE International Conference on Software Maintenance and Evolution, ICSME 2018},
-  year = {2018}
-}
-
-@inproceedings{Vahabzadeh2015,
-  author = {Vahabzadeh, Arash and Fard, Amin Milani and Mesbah, Ali},
-  title = {{An empirical study of bugs in test code}},
-  booktitle = {2015 IEEE 31st International Conference on Software Maintenance and Evolution, ICSME 2015 - Proceedings},
-  pages = {101--110},
-  year = {2015}
 }
 
 @inproceedings{Zhai2019,
