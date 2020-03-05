@@ -11,16 +11,21 @@ Style guide:
 - A tab/indent is two spaces
 - Surround whole words with curly brackets in titles to preserve captilization, not just first letters
 - Use author initials rather than full first name etc. with surname first; i.e. "Surname, I. and ..."
-- Key is formed by first author surname, followed by publication year, followed by b/c/d... if multiple publications for that author in that year
+- Key is formed by first author surname, followed by publication year, followed by b/c/d... if multiple 
+  publications for that author in that year
 - Entries ordered by key
+- Paper titles should be in proper titlecase.
+
+"Short" version only:
+- For conference, "booktitle" should be "Proc. of ACRONYM", where acronym is the conference 
+  acronym. No expansion of the acronymn, no year.
+- Omit page numbers, volumes, etc. (see "Order of fields" below)
 - Order of fields:
     - inproceedings: author, title, booktitle (conference acronym + year), pages, year
     - article: author, title, journal, volume, number, pages, year
     - techreport: author, title, institution, number, year
     - misc: author, title (including URL, if one exists), year
-Additional short version guide:
-- Use conference acronym + year for "booktitle", no expansion of acronym
-- Omit page numbers, volumes, etc. (see "Order of fields" above)
+
 
 @inproceedings{Bell2015,
   author = {Bell, J. and Kaiser, G. and Melski, E. and Dattatreya, M.},
@@ -39,7 +44,7 @@ Additional short version guide:
 @inproceedings{Campos2013,
   author = {Campos, J. and Abreu, R. and Fraser, G. and d'Amorim, M.},
   title = {Entropy-based Test Generation for Improved Fault Localization},
-  booktitle = {ASE 2013},
+  booktitle = {Proc. of ASE},
   year = {2013}
 }
 
@@ -94,14 +99,14 @@ Additional short version guide:
 @inproceedings{Huo2014,
   author = {Huo, C. and Clause, J.},
   title = {Improving Oracle Quality by Detecting Brittle Assertions and Unused Inputs in Tests},
-  booktitle = {FSE 2014},
+  booktitle = {Proc. of FSE},
   year = {2014}
 }
 
 @inproceedings{Jin2011,
   author = {Jin, G. and Song, L. and Zhang, W. and Lu, S. and Liblit, B.},
   title = {Automated Atomicity-Violation Fixing},
-  booktitle = {PLDI 2011},
+  booktitle = {Proc. of PLDI},
   year = {2011}
 }
 
@@ -152,7 +157,7 @@ Additional short version guide:
 @inproceedings{Luo2014,
   author = {Luo, Q. and Hariri, F. and Eloussi, L. and Marinov, D.},
   title = {An Empirical Analysis of Flaky Tests},
-  booktitle = {FSE 2014},
+  booktitle = {Proc. of FSE},
   year = {2014}
 }
 
@@ -180,7 +185,7 @@ Additional short version guide:
 @inproceedings{Palomba2017,
   author = {Palomba, F. and Zaidman, A.},
   title = {Does Refactoring of Test Smells Induce Fixing Flaky Tests?},
-  booktitle = {ICSME 2017},
+  booktitle = {Proc. of ICSME},
   year = {2017}
 }
 
@@ -201,7 +206,7 @@ Additional short version guide:
 @inproceedings{Spadini2018,
   author = {Spadini, D. and Palomba, F. and Zaidman, A. and Bruntink, M. and Bacchelli, A.},
   title = {On The Relation of Test Smells to Software Code Quality},
-  booktitle = {ICSME 2018},
+  booktitle = {Proc. of ICSME},
   year = {2018}
 }
 
