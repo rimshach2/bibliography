@@ -17,7 +17,7 @@ Style guide:
 - Paper titles should be in proper titlecase.
 
 "Short" version only:
-- For conference, "booktitle" should be "Proc. of ACRONYM", where acronym is the conference
+- For conference, "booktitle" should be "ACRONYM", where acronym is the conference
   acronym. No expansion of the acronymn, no year.
 - Omit page numbers, volumes, etc. (see "Order of fields" below)
 - Order of fields:
@@ -26,32 +26,81 @@ Style guide:
     - techreport: author, title, institution, number, year
     - misc: author, title (including URL, if one exists), year
 
+@inproceedings{Bell2014,
+  author = {Bell, J. and Kaiser, G.},
+  title = {Unit Test Virtualization with {VMVM}},
+  booktitle = {ICSE},
+  pages = {550--561},
+  year = {2014}
+}
 
 @inproceedings{Bell2015,
   author = {Bell, J. and Kaiser, G. and Melski, E. and Dattatreya, M.},
   title = {Efficient Dependency Detection for Safe {J}ava Test Acceleration},
-  booktitle = {Proc. of ESEC/FSE},
+  booktitle = {ESEC/FSE},
   year = {2015}
 }
 
 @inproceedings{Bell2018,
   author = {Bell, J. and Legunsen, O. and Hilton, M. and Eloussi, L. and Yung, T. and Marinov, D.},
   title = {{DeFlaker}: {Automatically} Detecting Flaky Tests},
-  booktitle = {Proc. of ICSE},
+  booktitle = {ICSE},
   year = {2018}
 }
 
 @inproceedings{Campos2013,
   author = {Campos, J. and Abreu, R. and Fraser, G. and d'Amorim, M.},
   title = {Entropy-based Test Generation for Improved Fault Localization},
-  booktitle = {Proc. of ASE},
+  booktitle = {ASE},
   year = {2013}
+}
+
+@inproceedings{Cruzes2011,  
+  author = {Cruzes, D. S. and Dyba, T.},  
+  title = {Recommended Steps for Thematic Synthesis in Software Engineering},
+  booktitle = {ESEM},
+  pages = {275--284},
+  year = {2011}
+}
+
+@article{Donaldson2002,
+  author = {Donaldson, S. and Grant-Vallone, E.},
+  title = {Understanding Self-Report Bias in Organizational Behavior Research},
+  journal = {Journal of Business and Psychology},
+  volume = {17},
+  number = {2},
+  pages = {245-260},
+  year = {2002}
+}
+
+@inproceedings{Durieux2020,
+  author = {Durieux, T. and Goues, C. L. and Hilton, M. Abreu, R.},
+  title = {Empirical Study of Restarted and Flaky Builds on {Travis CI}},
+  booktitle = {MSR},
+  pages = {254--264},
+  year = {2020}
+}
+
+@inproceedings{Dutta2020,
+  author = {Dutta, S. and Shi, A. and Choudhary, R. and Zhang, Z. and Jain, A. and Misailovic S.},
+  title = {Detecting Flaky Tests in Probabilistic and Machine Learning Applications},
+  booktitle = {ISSTA},
+  pages = {211--224},
+  year = {2020}
+}
+
+@inproceedings{Dutta2021,
+  author = {Dutta, S. and Shi, A. and Misailovic S.},
+  title = {{FLEX}: {Fixing} Flaky Tests in Machine Learning Projects by Updating Assertion Bounds},
+  booktitle = {ESEC/FSE},
+  pages = {211--224},
+  year = {2021}
 }
 
 @inproceedings{Eck2019,
   author = {Eck, M. and Palomba, F. and Castelluccio, M. and Bacchelli, A.},
   title = {Understanding Flaky Tests: The Developer's Perspective},
-  booktitle = {Proc. of ESEC/FSE},
+  booktitle = {ESEC/FSE},
   year = {2019}
 }
 
@@ -64,14 +113,14 @@ Style guide:
 @inproceedings{Gambi2018,
   author = {Gambi, A. and Bell, J. and Zeller, A.},
   title = {Practical Test Dependency Detection},
-  booktitle = {Proc. of ICST},
+  booktitle = {ICST},
   year = {2018}
 }
 
 @inproceedings{Gao2015,
   author = {Gao, Z. and Liang, Y. and Cohen, M. B. and Memon, A. M. and Wang, Z.},
   title = {Making System User Interactive Tests Repeatable: {When} and What Should We Control?},
-  booktitle = {Proc. of ICSE},
+  booktitle = {ICSE},
   year = {2015}
 }
 
@@ -82,38 +131,61 @@ Style guide:
   year = {2019}
 }
 
+@inproceedings{Gruber2021,
+  author = {Gruber, S. and Lukasczyk, S. and Kroiß, F. and Fraser, G.},
+  title = {An Empirical Study of Flaky Tests in {Python}},
+  booktitle = {ICST},
+  year = {2021}
+}
+
 @inproceedings{Gyori2015,
   author = {Gyori, A. and Shi, A. and Hariri, F. and Marinov, D.},
   title = {Reliable Testing: {Detecting} State-Polluting Tests to Prevent Test Dependency},
-  booktitle = {Proc. of ISSTA},
+  booktitle = {ISSTA},
+  year = {2015}
+}
+
+@inproceedings{Gyori2016,
+  author = {Gyori, A. and Lambeth, B. and Shi, A. and Legunsen, O. and Marinov, D.},
+  title = {{NonDex}: {A} Tool for Detecting and Debugging Wrong Assumptions on {Java} {API} Specification},
+  booktitle = {FSE},
+  pages = {223--233},
   year = {2015}
 }
 
 @inproceedings{Hilton2018,
   author = {Hilton, M. and Bell, J. and Marinov, D.},
   title = {A Large-Scale Study of Test Coverage Evolution},
-  booktitle = {Proc. of ASE},
+  booktitle = {ASE},
   year = {2018}
+}
+
+@inproceedings{Hilton2017,
+  author = {Hilton, M. and Nelson, N. and Tunnell, T. and Marinov, D. and Dig, D.},
+  title = {Trade-Offs in Continuous Integration: {Assurance}, Security, and Flexibility},
+  booktitle = {FSE},
+  pages = {197--207},
+  year = {2017}
 }
 
 @inproceedings{Huo2014,
   author = {Huo, C. and Clause, J.},
   title = {Improving Oracle Quality by Detecting Brittle Assertions and Unused Inputs in Tests},
-  booktitle = {Proc. of FSE},
+  booktitle = {FSE},
   year = {2014}
 }
 
 @inproceedings{Jin2011,
   author = {Jin, G. and Song, L. and Zhang, W. and Lu, S. and Liblit, B.},
   title = {Automated Atomicity-Violation Fixing},
-  booktitle = {Proc. of PLDI},
+  booktitle = {PLDI},
   year = {2011}
 }
 
 @inproceedings{Kochhar2019,
   author = {Kochhar, P. S. and Xia, X. and Lo, D.},
   title = {Practitioners' Views on Good Software Testing Practices},
-  booktitle = {Proc. of ICSE-SEIP},
+  booktitle = {ICSE-SEIP},
   year = {2019}
 }
 
@@ -128,19 +200,51 @@ Style guide:
 @inproceedings{Lam2019,
   author = {Lam, W. and Oei, R. and Shi, A. and Marinov, D. and Xie, T.},
   title = {{IDFlakies}: {A} Framework for Detecting and Partially Classifying Flaky Tests},
-  booktitle = {Proc. of ICST},
+  booktitle = {ICST},
   year = {2019}
+}
+
+@inproceedings{Lam2019b,
+  author = {Lam, W. and Godefroid, P. and Nath, S. and Santhiar, A. and Thummalapenta, S.},
+  title = {Root Causing Flaky Tests in a Large-Scale Industrial Setting},
+  booktitle = {ISSTA},
+  pages = {204--215},
+  year = {2019}
+}
+
+@inproceedings{Lam2020,
+  author = {Lam, W. and Shi, A. and Oei, R. and Zhang, S. and Ernst, M. D. and Xie, T.},
+  title = {Dependent-Test-Aware Regression Testing Techniques},
+  booktitle = {ISSTA},
+  pages = {298--311},
+  year = {2020}
+}
+
+@inproceedings{Lam2020b,
+  author = {Lam, W. and Winter, S. and Astorga, A. and Stodden, V. and Marinov, D.},
+  title = {Understanding Reproducibility and Characteristics of Flaky Tests Through Test Reruns in {Java} Projects},
+  booktitle = {ISSRE},
+  pages = {403--413},
+  year = {2020}
+}
+
+@inproceedings{Lam2020c,
+  author = {Lam, W. and Muşlu, K. and Sajnani, H. and Thummalapenta, S.},
+  title = {A Study on the Lifecycle of Flaky Tests},
+  booktitle = {ICSE},
+  pages = {1471--1482},
+  year = {2020}
 }
 
 @inproceedings{LeGoues2012,
   author = {{Le Goues}, C. and {Dewey-Vogt}, M. and Forrest, S. and Weimer, W.},
   title = {A Systematic Study of Automated Program Repair: {Fixing} 55 out of 105 Bugs for \$8 Each},
-  booktitle = {Proc. of ICSE},
+  booktitle = {ICSE},
   year = {2012},
 }
 
 @article{LeGoues2019,
-  author = {{Le Goues}, C. and Pradel, M. and Roychoudhury, A.},
+  author = {Goues, C. L. and Pradel, M. and Roychoudhury, A.},
   title = {Automated Program Repair},
   journal = {Communications of the ACM},
   month = {November},
@@ -150,21 +254,37 @@ Style guide:
 @inproceedings{Liu2019,
   author = {Liu, K. and Koyuncu, A. and Kim, D. and Bissyand{\'e}, T. F.},
   title = {{TBar}: {Revisiting} Template-Based Automated Program Repair},
-  booktitle = {Proc. of ISSTA},
+  booktitle = {ISSTA},
   year = {2019}
 }
 
 @inproceedings{Luo2014,
   author = {Luo, Q. and Hariri, F. and Eloussi, L. and Marinov, D.},
   title = {An Empirical Analysis of Flaky Tests},
-  booktitle = {Proc. of FSE},
+  booktitle = {FSE},
   year = {2014}
+}
+
+@inproceedings{Luo2014b,
+  author = {Luo, Q. and Hariri, F. and Eloussi, L. and Marinov, D.},
+  title = {An Empirical Analysis of Flaky Tests},
+  booktitle = {FSE},
+  pages = {643--653},
+  year = {2014}
+}
+
+@inproceedings{Machalica2019,
+  author = {Machalica, M. and Samylkin, A. and Porth, M. and Chandra, S.},
+  title = {Predictive Test Selection},
+  booktitle = {ICSE-SEIP},
+  pages = {91--100},
+  year = {2019}
 }
 
 @inproceedings{Marinescu2014,
   author = {Marinescu, P. and Hosek, P. and Cadar, C.},
   title = {{Covrig}: {A} Framework for the Analysis of Code, Test, and Coverage Evolution in Real Software},
-  booktitle = {Proc. of ISSTA},
+  booktitle = {ISSTA},
   year = {2014}
 }
 
@@ -175,6 +295,14 @@ Style guide:
   year = {2004}
 }
 
+@inproceedings{Memon2017,
+  author = {Memon, A. and Gao, Z. and Nguyen, B. and Dhanda, S. and Nickell, E. and Siemborski, R. and Micco, J.},
+  title = {Taming {Google}-Scale Continuous Testing},
+  booktitle = {ICSE-SEIP},
+  pages = {233--242},
+  year = {2017}
+}
+
 @article{Monperrus2018,
   author = {Monperrus, M.},
   title = {Automatic Software Repair: {A} Bibliography},
@@ -182,10 +310,18 @@ Style guide:
   year = {2018}
 }
 
+@inproceedings{Nejadgholi2019,
+  author = {Nejadgholi, M. and Yang, J.},
+  title = {A Study of Oracle Approximations in Testing Deep Learning Libraries},
+  booktitle = {ASE},
+  pages = {785--796},
+  year = {2019}
+}
+
 @inproceedings{Palomba2017,
   author = {Palomba, F. and Zaidman, A.},
   title = {Does Refactoring of Test Smells Induce Fixing Flaky Tests?},
-  booktitle = {Proc. of ICSME},
+  booktitle = {ICSME},
   year = {2017}
 }
 
@@ -196,17 +332,72 @@ Style guide:
   year = {2019}
 }
 
+@inproceedings{Peng2020,
+  author = {Peng, Q. and Shi, A. and Zhang, L.},
+  title = {Empirically Revisiting and Enhancing {IR}-Based Test-Case Prioritization},
+  booktitle = {ISSTA},
+  pages = {324--336},
+  year = {2020}
+}
+
+@article{PradoLima2020,
+  author = {Prado Lima, J. A. and Vergilio, S. R.},
+  title = {Test Case Prioritization in Continuous Integration Environments: {A} Systematic Mapping Study},
+  journal = {Information and Software Technology},
+  volume = {121},
+  year = {2020}
+}
+
+@inproceedings{Rahman2018,
+  author = {Rahman, M. T. and Rigby, P. C.},
+  title = {The Impact of Failing, Flaky, and High Failure Tests on the Number of Crash Reports Associated With {Firefox} Builds},
+  booktitle = {ESEC/FSE},
+  pages = {857--862},
+  year = {2018}
+}
+
+@inproceedings{Romano2021,
+  author = {Romano, A. and Song, Z. and Grandhi, S. and Yang, W. and Wang, W.},
+  title = {An Empirical Analysis of {UI-based} Flaky Tests},
+  booktitle = {ICSE},
+  year = {2021}
+}
+
+@inproceedings{Shi2016,
+  author = {Shi, A. and Gyori, A. and Legunsen, O. and Marinov, D.},
+  title = {Detecting Assumptions on Deterministic Implementations of Non-Deterministic Specifications},
+  booktitle = {ICST},
+  pages = {80--90},
+  year = {2016}
+}
+
 @inproceedings{Shi2019,
   author = {Shi, A. and Lam, W. and Oei, R. and Xie, T. and Marinov, D.},
   title = {{iFixFlakies}: {A} Framework for Automatically Fixing Order-Dependent Flaky Tests},
-  booktitle = {Proc. of ESEC/FSE},
+  booktitle = {ESEC/FSE},
   year = {2019}
+}
+
+@inproceedings{Shi2019b,
+  author = {Shi, A. and Bell, J. and Marinov, D.},
+  title = {Mitigating the Effects of Flaky Tests on Mutation Testing},
+  booktitle = {ISSTA},
+  pages = {296--306},
+  year = {2019}
+}
+
+@inproceedings{Spadini2017,
+  author = {Spadini, D. and Aniche, M. and Bruntink, M. and Bacchelli, A.},
+  title = {To Mock or Not to Mock? An Empirical Study on Mocking Practices}, 
+  booktitle = {MSR},
+  pages = {402--412},
+  year = {2017}
 }
 
 @inproceedings{Spadini2018,
   author = {Spadini, D. and Palomba, F. and Zaidman, A. and Bruntink, M. and Bacchelli, A.},
   title = {On The Relation of Test Smells to Software Code Quality},
-  booktitle = {Proc. of ICSME},
+  booktitle = {ICSME},
   year = {2018}
 }
 
@@ -216,16 +407,48 @@ Style guide:
   year = {2019}
 }
 
+@inproceedings{Thorve2018,
+  author = {Thorve, S. and Sreshtha, C. and Meng, N.},
+  title = {An Empirical Study of Flaky Tests in {Android} Apps},
+  booktitle = {ICSME},
+  pages = {534--538},
+  year = {2018}
+}
+
+@inproceedings{Vahabzadeh2015,
+  author = {Vahabzadeh, A. and Fard, A. A. and Mesbah, A.},
+  title = {An Empirical Study of Bugs in Test Code},
+  booktitle = {ICSME},
+  pages = {101--110},
+  year = {2015}
+}
+
+@inproceedings{Yu2019,
+  author = {Yu, Z. and Fahid, F. and Menzies, T. and Rothermel, G. and Patrick, K. and Cherian, S.},
+  title = {{TERMINATOR}: {Better} Automated {UI} Test Case Prioritization},
+  booktitle = {ESEC/FSE},
+  pages = {883--894},
+  year = {2019}
+}
+
 @inproceedings{Zhai2019,
   author = {Zhai, H. and Casalnuovo, C. and Devanbu, P.},
   title = {Test Coverage in {Python} Programs},
-  booktitle = {Proc. of MSR},
+  booktitle = {MSR},
   year = {2019}
 }
 
 @inproceedings{Zhang2014,
   author = {Zhang, S. and Jalali, D. and Wuttke, J. and Mu\c{s}lu, K. and Lam, W. and Ernst, M. D. and Notkin, D.},
   title = {Empirically Revisiting the Test Independence Assumption},
-  booktitle = {Proc. of ISSTA},
+  booktitle = {ISSTA},
   year = {2014}
+}
+
+@inproceedings{Zhang2021,
+  author = {Zhang, P. and Jiang, Y. and Wei, A. and Stodden, V. and Marinov, D. and Shi, A.},
+  title = {Domain-Specific Fixes for Flaky Tests with Wrong Assumptions on Underdetermined Specifications},
+  booktitle = {ICSE},
+  pages = {50–61},
+  year = {2021}
 }
