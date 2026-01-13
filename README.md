@@ -9,7 +9,7 @@ You are free to use any of the entries in this file if you are interested in cit
 You can type the following command if you want to clone this repository:
 
 ```shell
-git clone git@github.com:flake-it/bibliography.git
+git clone git@github.com:test-flare/bibliography.git
 ```
 
 Now, you can type `cd schemaanalyst-bibliography` and use the BibTeX file in your own LaTeX project. Alternatively, a document that cites all of the entries in this bibliography can be compiled on an Ubuntu 16.04 LTS workstation using `pdflatex` and `bibtex`; you may also compile to a PDF file using a wide variety of other tools, such as `latexmk`. You can type the following commands to create the summary document.
@@ -24,7 +24,7 @@ pdflatex bibliography.tex
 Alternatively, you can use the repository as a git submodule of another repository. To do this, type the following command:
 
 ```shell
-git submodule add git@github.com:flake-it/bibliography.git bibliography
+git submodule add git@github.com:test-flare/bibliography.git bibliography
 ```
 
 where the final parameter ("bibtex") is the name of the directory that you wish to install the repository. Following this, you will need to invoke the following commands:
